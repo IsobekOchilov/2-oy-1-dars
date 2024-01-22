@@ -1,0 +1,60 @@
+body{
+    background-image: url(../img/photo_2024-01-22_16-04-14.jpg);
+    background-repeat: no-repeat;
+}
+.box
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-color: red;
+    margin-top: 64px;
+    margin-left: 43px;
+    animation: 5s isobek infinite;
+}
+@keyframes isobek {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    10%{
+        top: 0;
+        left: 225px;
+    }
+    20%{
+        top: 240px;
+        left: 225px;
+    }
+    30%{
+        top: 240px;
+        left: 780px;
+    }
+    40%{
+        top: 370px;
+        left: 780px;
+    }
+    50%{
+        top: 370px;
+        left: 470px;
+    }
+    60%{
+        top: 325px;
+        left: 470px;
+    }
+    70%{
+        top: 325px;
+        left: 240px;
+    }
+    80%{
+        top: 220px;
+        left: 100px;
+    }
+    90%{
+        top: 220px;
+        left: 5px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
